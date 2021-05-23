@@ -1,0 +1,69 @@
+/****************  Fonts style ******************/
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../assets/fonts/Inter/Inter-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../assets/fonts/Inter/Inter-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-Light";
+  src: url("../assets/fonts/Inter/Inter-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("../assets/fonts/Inter/Inter-Semibold.ttf") format("truetype"); }
+.font-inter-bold {
+  font-family: "Inter-Bold", sans-serif; }
+
+.font-inter-regular {
+  font-family: "Inter-Regular", sans-serif; }
+
+.font-inter-light {
+  font-family: "Inter-Light", sans-serif; }
+
+.font-inter-semi-bold {
+  font-family: "Inter-SemiBold",sans-serif; }
+
+/********************* COLORS STYLE ****************/
+/******************** ICONS STYLE ********************/
+.icon {
+  width: 18px;
+  height: 18px;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  background-color: #F1B301; }
+  .icon.icon-phone {
+    mask-image: url("../assets/icons/phone.png");
+    -webkit-mask-image: url("../assets/icons/phone.png"); }
+  .icon.icon-basket {
+    mask-image: url("../assets/icons/basket.png");
+    -webkit-mask-image: url("../assets/icons/basket.png"); }
+  .icon.icon-filter {
+    mask-image: url("../assets/icons/filter.png");
+    -webkit-mask-image: url("../assets/icons/filter.png"); }
+  .icon.icon-plus {
+    mask-image: url("../assets/icons/plus.png");
+    -webkit-mask-image: url("../assets/icons/plus.png"); }
+  .icon.icon-youtube {
+    mask-image: url("../assets/icons/youtube.png");
+    -webkit-mask-image: url("../assets/icons/youtube.png"); }
+  .icon.icon-facebook {
+    mask-image: url("../assets/icons/facebook.png");
+    -webkit-mask-image: url("../assets/icons/facebook.png"); }
+  .icon.icon-telegram {
+    mask-image: url("../assets/icons/telegram.png");
+    -webkit-mask-image: url("../assets/icons/telegram.png"); }
+  .icon.icon-tik-tok {
+    mask-image: url("../assets/icons/tik-tok.png");
+    -webkit-mask-image: url("../assets/icons/tik-tok.png"); }
+
+/*************** MAIN STYLES ***************/
+html {
+  font-size: 16px; }
+  html nav .col-60 {
+    width: 60%; }
+  html nav .col-40 {
+    width: 40%; }
+
+/*# sourceMappingURL=css.map */

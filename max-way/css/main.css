@@ -1,0 +1,404 @@
+/****************  Fonts style ******************/
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../assets/fonts/Inter/Inter-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../assets/fonts/Inter/Inter-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-Light";
+  src: url("../assets/fonts/Inter/Inter-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("../assets/fonts/Inter/Inter-Semibold.ttf") format("truetype"); }
+.font-inter-bold {
+  font-family: "Inter-Bold", sans-serif; }
+
+.font-inter-regular {
+  font-family: "Inter-Regular", sans-serif; }
+
+.font-inter-light {
+  font-family: "Inter-Light", sans-serif; }
+
+.font-inter-semi-bold {
+  font-family: "Inter-SemiBold",sans-serif; }
+
+/********************* COLORS STYLE ****************/
+/******************** ICONS STYLE ********************/
+.icon {
+  width: 18px;
+  height: 18px;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  background-color: #F1B301; }
+  .icon.icon-phone {
+    mask-image: url("../assets/icons/phone.png");
+    -webkit-mask-image: url("../assets/icons/phone.png"); }
+  .icon.icon-basket {
+    mask-image: url("../assets/icons/basket.png");
+    -webkit-mask-image: url("../assets/icons/basket.png"); }
+  .icon.icon-filter {
+    mask-image: url("../assets/icons/filter.png");
+    -webkit-mask-image: url("../assets/icons/filter.png"); }
+  .icon.icon-plus {
+    mask-image: url("../assets/icons/plus.png");
+    -webkit-mask-image: url("../assets/icons/plus.png"); }
+  .icon.icon-youtube {
+    mask-image: url("../assets/icons/youtube.png");
+    -webkit-mask-image: url("../assets/icons/youtube.png");
+    background-color: #646466;
+    cursor: pointer;
+    width: 22px;
+    height: 22px; }
+  .icon.icon-instagram {
+    mask-image: url("../assets/icons/instagram.png");
+    -webkit-mask-image: url("../assets/icons/instagram.png");
+    background-color: #646466;
+    cursor: pointer;
+    width: 22px;
+    height: 22px; }
+  .icon.icon-facebook {
+    mask-image: url("../assets/icons/facebook.png");
+    -webkit-mask-image: url("../assets/icons/facebook.png");
+    background-color: #646466;
+    cursor: pointer;
+    width: 22px;
+    height: 22px; }
+  .icon.icon-telegram {
+    mask-image: url("../assets/icons/telegram.png");
+    -webkit-mask-image: url("../assets/icons/telegram.png");
+    background-color: #646466;
+    cursor: pointer;
+    width: 22px;
+    height: 22px; }
+  .icon.icon-tik-tok {
+    mask-image: url("../assets/icons/tik-tok.png");
+    -webkit-mask-image: url("../assets/icons/tik-tok.png");
+    background-color: #646466;
+    cursor: pointer;
+    width: 22px;
+    height: 22px; }
+
+/*************** MAIN STYLES ***************/
+html {
+  font-size: 16px; }
+  html body {
+    width: 100%;
+    overflow-x: hidden; }
+  html .top {
+    background-image: linear-gradient(to right, #ffffff 57%, #800A7A 40%); }
+    @media (min-width: 1200px) and (max-width: 1400px) {
+      html .top {
+        background-image: linear-gradient(to right, #ffffff 60%, #800A7A 40%); } }
+    @media (max-width: 576px) {
+      html .top {
+        background-image: linear-gradient(#ffffff 40%, #800A7A 20%); } }
+    html .top nav .col-60 {
+      width: 60%; }
+      html .top nav .col-60 .nav-link {
+        color: #222124; }
+    html .top nav .col-40 {
+      width: 40%; }
+      @media (max-width: 992px) {
+        html .top nav .col-40 {
+          width: 100%; } }
+      html .top nav .col-40 .line {
+        width: 1px;
+        height: 100%;
+        background-color: #B36CAF;
+        margin-right: 40px;
+        margin-left: 40px; }
+      @media (max-width: 1200px) {
+        html .top nav .col-40 h4 {
+          font-size: 16px; } }
+      @media (max-width: 992px) {
+        html .top nav .col-40 h4, html .top nav .col-40 p {
+          color: #222124 !important; } }
+      html .top nav .col-40 .icon {
+        margin-right: 19px; }
+    html .top header {
+      position: relative;
+      padding-top: 120px; }
+      html .top header h1 {
+        font-size: 80px;
+        line-height: 85px;
+        color: #222124; }
+      html .top header p {
+        margin-top: 14px;
+        font-size: 18px;
+        line-height: 32px;
+        color: #222124; }
+      @media (max-width: 992px) and (min-width: 767px) {
+        html .top header h1 {
+          font-size: 60px;
+          line-height: 65px; } }
+      @media (max-width: 767px) {
+        html .top header h1 {
+          font-size: 36px;
+          line-height: 44px; }
+        html .top header p {
+          font-size: 16px;
+          line-height: 19px; } }
+      @media (max-width: 576px) {
+        html .top header h1, html .top header p {
+          color: #ffffff; } }
+      html .top header .card {
+        margin-top: 66px;
+        padding: 20px;
+        border-radius: 12px;
+        overflow: hidden; }
+        @media (max-width: 992px) {
+          html .top header .card {
+            box-shadow: 0 0 10px #ffffff; } }
+        @media (max-width: 576px) {
+          html .top header .card {
+            width: 255px; } }
+        html .top header .card .new {
+          background: rgba(255, 255, 255, 0.203344);
+          border-radius: 19px;
+          display: inline-block;
+          padding: 10px 22px;
+          color: #ffffff; }
+          html .top header .card .new img {
+            vertical-align: sub; }
+        html .top header .card.card-yellow {
+          background-color: #F1B301; }
+          html .top header .card.card-yellow h2 {
+            color: #E76A06; }
+        html .top header .card.card-purple {
+          background-color: #800A7A; }
+          html .top header .card.card-purple h2 {
+            color: #FC96F7; }
+        html .top header .card h2 {
+          font-size: 34px;
+          line-height: 32px;
+          margin-bottom: 0; }
+          html .top header .card h2:nth-child(2) {
+            margin-top: 56px; }
+        html .top header .card > img {
+          position: absolute;
+          right: 0;
+          bottom: 0; }
+      html .top header .big-burger {
+        position: absolute;
+        right: 50px;
+        top: 68px;
+        width: 53%; }
+        @media (max-width: 576px) {
+          html .top header .big-burger {
+            display: none; } }
+      html .top header .overflow-mobile {
+        overflow-x: auto;
+        background-color: white;
+        margin-top: 46px; }
+  html main .line {
+    height: 1px;
+    background-color: #EAEAEA;
+    margin-top: 80px; }
+  html main .nav {
+    overflow-x: auto;
+    margin-top: 40px; }
+    html main .nav .nav-item:last-child .nav-link {
+      background-color: #F5F5F5;
+      border-radius: 27px;
+      padding-left: 44px;
+      padding-right: 44px; }
+      html main .nav .nav-item:last-child .nav-link .icon {
+        background-color: #000000;
+        transform: translateY(2px); }
+    html main .nav .nav-item .nav-link {
+      font-size: 20px;
+      color: #222124;
+      text-decoration: none;
+      line-height: 24px;
+      font-family: Inter-Regular,sans-serif;
+      padding: 15px 25px; }
+      html main .nav .nav-item .nav-link.active {
+        background-color: #F1B301;
+        color: white;
+        border-radius: 27px; }
+  html main .filtr {
+    width: 100%;
+    height: 50px;
+    padding: 10px 50px;
+    background-color: #F1F1F1;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 20px; }
+    html main .filtr img {
+      margin-bottom: 8px; }
+    html main .filtr a {
+      text-decoration: none;
+      color: black;
+      font-size: 23px; }
+  html main .tab-pane h1 {
+    color: #222124;
+    font-size: 52px;
+    line-height: 63px;
+    margin-top: 105px; }
+    @media (max-width: 576px) {
+      html main .tab-pane h1 {
+        text-align: center; } }
+  html main .tab-pane .card {
+    margin-top: 30px;
+    border-radius: 12px; }
+    html main .tab-pane .card .card-body {
+      padding: 30px 40px 20px 30px; }
+      html main .tab-pane .card .card-body .main-photo {
+        margin-right: 40px; }
+      html main .tab-pane .card .card-body h4 {
+        font-size: 24px;
+        line-height: 29px;
+        color: #222124; }
+        html main .tab-pane .card .card-body h4 img {
+          margin-left: 17px; }
+      html main .tab-pane .card .card-body p {
+        font-size: 14px;
+        line-height: 17px;
+        color: #A6A6A6;
+        margin-top: 10px; }
+      html main .tab-pane .card .card-body h3 {
+        font-size: 24px;
+        line-height: 29px;
+        color: #222124;
+        margin-top: 41px; }
+      html main .tab-pane .card .card-body .add-to-cart {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #F1B301;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        cursor: pointer; }
+      html main .tab-pane .card .card-body .fire {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.249235);
+        box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+        backdrop-filter: blur(8.15485px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 30px;
+        left: 30px; }
+  html main .section-end {
+    position: relative;
+    margin-top: 170px;
+    background-color: #800A7A;
+    padding: 75px 128px;
+    z-index: 1; }
+    html main .section-end .img1 {
+      position: absolute;
+      top: -150px;
+      right: 0px;
+      z-index: 2; }
+      html main .section-end .img1 img {
+        width: 800px; }
+    html main .section-end .img1-mobile {
+      position: absolute;
+      top: -80px;
+      left: 15%;
+      z-index: 2; }
+      @media (max-width: 992px) {
+        html main .section-end .img1-mobile {
+          display: block; } }
+    html main .section-end .img2 {
+      position: absolute;
+      top: 100px;
+      right: -80px; }
+      html main .section-end .img2 img {
+        width: 700px; }
+      @media (max-width: 992px) {
+        html main .section-end .img2 {
+          display: none; } }
+    html main .section-end .img2-mobile {
+      position: absolute;
+      top: 70px;
+      left: 22%;
+      z-index: 1; }
+      @media (max-width: 992px) {
+        html main .section-end .img2-mobile {
+          display: block; } }
+    html main .section-end h1 {
+      font-size: 52px;
+      line-height: 63px;
+      color: #ffffff;
+      margin-bottom: 60px; }
+    @media (max-width: 1200px) and (min-width: 992px) {
+      html main .section-end h1 {
+        font-size: 35px;
+        line-height: 45px; } }
+    @media (max-width: 992px) {
+      html main .section-end h1 {
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        margin-top: 150px; } }
+    html main .section-end .app-store {
+      width: 200px;
+      height: 70px;
+      border-radius: 30px;
+      border: 1px solid grey;
+      background-color: transparent;
+      cursor: pointer; }
+      html main .section-end .app-store p {
+        font-size: 18px;
+        color: white; }
+      @media (max-width: 777px) {
+        html main .section-end .app-store {
+          width: 100%;
+          margin-left: 0 !important;
+          margin-top: 20px !important; } }
+    html main .section-end .google-play {
+      width: 200px;
+      height: 70px;
+      border-radius: 30px;
+      border: 1px solid grey;
+      background-color: transparent;
+      cursor: pointer; }
+      html main .section-end .google-play p {
+        font-size: 18px;
+        color: white; }
+      @media (max-width: 777px) {
+        html main .section-end .google-play {
+          width: 100%; } }
+  html footer {
+    padding-top: 125px; }
+    html footer .footer-line {
+      width: 100%;
+      height: 1px;
+      background-color: grey;
+      margin-top: 40px;
+      margin-bottom: 27px; }
+    html footer h3 {
+      font-size: 20px;
+      line-height: 18px;
+      color: #003846; }
+    html footer a {
+      font-size: 14px;
+      line-height: 34px;
+      color: #222124;
+      margin-top: 10px; }
+    html footer h2 {
+      font-size: 25px;
+      line-height: 33px; }
+    @media (max-width: 767px) {
+      html footer .footer-p {
+        font-size: 18px;
+        line-height: 177.02%; } }
+  html .btn-color {
+    background-color: #F1F1F1;
+    width: 100% !important;
+    border-radius: 27px; }
+
+/********************* MEDIA QUERIES ****************/
+
+/*# sourceMappingURL=main.css.map */

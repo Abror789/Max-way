@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1fabd8e-14b7-4164-bfad-7df73d9f2319" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1obo36F8Bc6xnAyc0bvmJFeZcoR" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lesson 22.  komanda" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PDP Web\WebFull G73\Lesson 17. Practise\assets\fonts\Inter" />
+      <recent name="D:\PDP Web\WebFull G73\Lesson 17. Practise" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1fabd8e-14b7-4164-bfad-7df73d9f2319" name="Default Changelist" comment="" />
+      <created>1613564448587</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613564448587</updated>
+      <workItem from="1613564449859" duration="1335000" />
+      <workItem from="1613566115137" duration="3730000" />
+      <workItem from="1613638819418" duration="579000" />
+      <workItem from="1613736326987" duration="6403000" />
+      <workItem from="1613898249627" duration="318000" />
+      <workItem from="1613898672324" duration="22000" />
+      <workItem from="1613994379057" duration="6649000" />
+      <workItem from="1614089279300" duration="1252000" />
+      <workItem from="1614167607525" duration="3390000" />
+      <workItem from="1614171247909" duration="824000" />
+      <workItem from="1614265155664" duration="42000" />
+      <workItem from="1614599704812" duration="6667000" />
+      <workItem from="1614684966321" duration="1256000" />
+      <workItem from="1614704181343" duration="14961000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

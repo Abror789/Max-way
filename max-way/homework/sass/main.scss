@@ -1,0 +1,150 @@
+/****************  Fonts style ******************/
+
+
+
+@font-face {
+  font-family: "SFProDisplay-Bold";
+  src: url("../assets/fonts/SF Pro Display/SFProDisplay-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SFProDisplay-Regular";
+  src: url("../assets/fonts/SF Pro Display/SFProDisplay-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SFProDisplay-Light-1";
+  src: url("../assets/fonts/SF Pro Display/SFProDisplay-Light-1.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SFProDisplay-Semibold";
+  src: url("../assets/fonts/SF Pro Display/SFProDisplay-Semibold.ttf") format("truetype");
+}
+
+.font-sf-pro-display-bold{
+  font-family: "SFProDisplay-Bold", sans-serif;
+}
+.font-sf-pro-display-regular{
+  font-family: "SFProDisplay-Regular", sans-serif;
+}
+.font-sf-pro-display-light{
+  font-family: "SFProDisplay-Light-1", sans-serif;
+}
+.font-sf-pro-display-semibold{
+  font-family: "SFProDisplay-Semibold",sans-serif;
+}
+
+/**************COLORS STYLE **************/
+
+$color-black-1:#343434;
+$color-black-2:#111111;
+$color-red:#E10C33;
+$color-grey:#ABABAB;
+$color-aqua:#1DD1A1;
+$color-footer:#093845;
+$color-white:#F6FCFA;
+
+
+
+nav{
+  ul{
+    a{
+      color: $color-black-1;
+    }
+  }
+}
+.col-70{
+  width: 70%;
+}
+.col-30{
+  width: 30%;
+}
+.font-size-for-p-nav{
+  font-size: 12px;
+}
+.col-30{
+  p{
+    color: $color-grey;
+    margin-top: -5px;
+  }
+}
+.navbar{
+  height: 60px;
+}
+body{
+  background-color: #EEF2F5;
+  .h1ga{
+    font-size: 30px;
+    color: $color-black-2;
+    margin-top: 107px;
+    margin-left: 30%;
+  }
+}
+
+.section-1{
+  margin-top: 40px;
+  width: 414px;
+  height: 127px;
+  background-color: white;
+  p{
+    font-size: 14px;
+  }
+  h3{
+    font-size: 24px;
+  }
+}
+.p-red-color{
+  color: $color-red;
+}
+.section-2{
+  width: 350px;
+  height: 357px;
+  p{
+    font-size: 20px;
+  }
+}
+.margin-for-section-2{
+  margin-top: 50%;
+}
+.section-3{
+  margin-top: 90px;
+  h1{
+    font-size: 30px;
+    color: $color-black-2;
+  }
+}
+.h1-card{
+  font-size: 24px;
+}
+.btn-color{
+  background-color: $color-aqua;
+}
+.card-body{
+  p{
+    font-size: 14px;
+  }
+}
+.card-footer{
+  button{
+    margin-top: -30px!important;
+  }
+
+}
+.card-body-p-grey{
+  color: $color-grey;
+}
+footer{
+  background-color: $color-footer;
+}
+.card{
+  width: 350px !important;
+  height: 342px !important;
+}
+.tayoqcha{
+  width: 2px;
+  height: 12px;
+  background-color: black;
+  display: inline-block;
+}
+.finish-footer-p{
+  color: $color-grey;
+}
